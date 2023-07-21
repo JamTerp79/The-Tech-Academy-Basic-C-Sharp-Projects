@@ -57,7 +57,7 @@ namespace BranchingAssignment.cs
             }
 
             // Calculates the shipping quote
-            float quote = dimensions * weight / 100;
+            float quote = (width * height * length) * weight / 100;
 
             // Displays the shipping quote to the user
             Console.WriteLine("Your estimated total for shipping this package is: ${0:0.00}", quote);
