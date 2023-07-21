@@ -1,0 +1,7 @@
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\bin\Debug\DoWhileLoopAssignment.cs.exe.config
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\bin\Debug\DoWhileLoopAssignment.cs.exe
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\bin\Debug\DoWhileLoopAssignment.cs.pdb
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\obj\Debug\DoWhileLoopAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\obj\Debug\DoWhileLoopAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\obj\Debug\DoWhileLoopAssignment.cs.exe
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\DoWhileLoopAssignment\DoWhileLoopAssignment.cs\obj\Debug\DoWhileLoopAssignment.cs.pdb
