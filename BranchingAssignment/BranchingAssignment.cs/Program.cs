@@ -42,7 +42,7 @@ namespace BranchingAssignment.cs
             int length = int.Parse(Console.ReadLine());
 
             // Calculates the total dimensions of the package
-            int dimensions = width * height * length;
+            int dimensions = width + height + length;
 
             // Checks if the dimensions are greater than 50. If they are, displays an error message and ends the program
             if (dimensions > 50)
