@@ -11,7 +11,7 @@ namespace SixPartAssignment.cs
         static void Main(string[] args)
         {
             // Array of strings
-            string[] stringArray = { "Hello", "World", "my", "name", "is" };
+            string[] stringArray = { "Hello", "World", "my", "name", "is", "James" };
             //Unique list
             List<string> stringList = new List<string>()
             {
@@ -19,12 +19,29 @@ namespace SixPartAssignment.cs
                 "apple"  //adding identical string for part 5
             };
 
+            // Track unique items
+            HashSet<string> seen = new HashSet<string>();
+
+            // Loop through list
+            foreach (string item in stringList)
+            {
+                if (seen.Contains(item))
+                {
+                    Console.WriteLine(item + " - duplicate");
+                }
+                else
+                {
+                    Console.WriteLine(item + " - unique");
+                    seen.Add(item);
+                }
+            }
+
             //// creating an Infinite loop
             //while (true)
             //{
             //    // loop forever
             //}
-                   
+
             // replacing the while(true) infinite loop with a finite for loop
             // this also satisfies the first instruction on the third part of the assignment to uses < operator
             for (int i = 0; i < 5; i++)
