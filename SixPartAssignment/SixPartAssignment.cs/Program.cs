@@ -13,13 +13,14 @@ namespace SixPartAssignment.cs
             // Array of strings
             string[] stringArray = { "Hello", "World", "my", "name", "is" };
 
-            //// Infinite loop
+            //// creating an Infinite loop
             //while (true)
             //{
             //    // loop forever
             //}
                    
             // replacing the while(true) infinite loop with a finite for loop
+            // this also satisfies the first instruction on the third part of the assignment to uses < operator
             for (int i = 0; i < 5; i++)
             {
                 //loop 5 times
@@ -30,7 +31,8 @@ namespace SixPartAssignment.cs
             string userInput = Console.ReadLine();
 
             // Loop with index to modify array
-            for (int i = 0; i < stringArray.Length; i++)
+            //for (int i = 0; i < stringArray.Length; i++) ORIGINAL
+            for (int i = 0; i <= 4; i++)  //NEW iterating with <= operator
             {
                 stringArray[i] += userInput;
             }
