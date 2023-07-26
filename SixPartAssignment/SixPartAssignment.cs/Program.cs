@@ -15,7 +15,8 @@ namespace SixPartAssignment.cs
             //Unique list
             List<string> stringList = new List<string>()
             {
-                "apple", "banana", "orange"
+                "apple", "banana", "orange",
+                "apple"  //adding identical string for part 5
             };
 
             //// creating an Infinite loop
@@ -42,25 +43,39 @@ namespace SixPartAssignment.cs
             //    stringArray[i] += userInput;
             //}
 
+            //Store matching indices
+            List<int> indices = new List<int>();
+
             //Loop through the list
-            int index = -1;
+            //int index = -1;
             foreach (string s in stringList)
             {
                 if (s == searchText)
                 {
-                    index = stringList.IndexOf(s);
-                    break;
+
+                    indices.Add(stringList.IndexOf(s));
+                    //index = stringList.IndexOf(s);
+                    //break;
                 }
             }
-            if(index == -1)
+            //if(index == -1) Pt. 4
+           
+            if (indices.Count == 0)
             {
                 Console.WriteLine("Text not found");
                 Console.ReadLine();
             }
             else
             {
-                Console.WriteLine("Text found at: " + index);
-                Console.ReadLine();
+                Console.WriteLine("Text found at indices:");  //PT. 5
+                //Console.WriteLine("Text found at: " + index); PT. 4
+                //Console.ReadLine();  Remove the read for PT 5
+
+                //print indices
+                foreach (int i in indices)
+                {
+                    Console.WriteLine(i);
+                }
             }
 
             // Loop to print strings
