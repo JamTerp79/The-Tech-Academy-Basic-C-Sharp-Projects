@@ -13,6 +13,18 @@ namespace SixPartAssignment.cs
             // Array of strings
             string[] stringArray = { "Hello", "World", "my", "name", "is" };
 
+            //// Infinite loop
+            //while (true)
+            //{
+            //    // loop forever
+            //}
+                   
+            // replacing the while(true) infinite loop with a finite for loop
+            for (int i = 0; i < 5; i++)
+            {
+                //loop 5 times
+            }
+
             // Get user input
             Console.Write("Enter some text: ");
             string userInput = Console.ReadLine();
