@@ -12,6 +12,11 @@ namespace SixPartAssignment.cs
         {
             // Array of strings
             string[] stringArray = { "Hello", "World", "my", "name", "is" };
+            //Unique list
+            List<string> stringList = new List<string>()
+            {
+                "apple", "banana", "orange"
+            };
 
             //// creating an Infinite loop
             //while (true)
@@ -27,14 +32,35 @@ namespace SixPartAssignment.cs
             }
 
             // Get user input
-            Console.Write("Enter some text: ");
-            string userInput = Console.ReadLine();
+            Console.Write("Enter text to search: ");
+            string searchText = Console.ReadLine();
 
-            // Loop with index to modify array
-            //for (int i = 0; i < stringArray.Length; i++) ORIGINAL
-            for (int i = 0; i <= 4; i++)  //NEW iterating with <= operator
+            //// Loop with index to modify array
+            ////for (int i = 0; i < stringArray.Length; i++) ORIGINAL
+            //for (int i = 0; i <= 4; i++)  //NEW iterating with <= operator
+            //{
+            //    stringArray[i] += userInput;
+            //}
+
+            //Loop through the list
+            int index = -1;
+            foreach (string s in stringList)
             {
-                stringArray[i] += userInput;
+                if (s == searchText)
+                {
+                    index = stringList.IndexOf(s);
+                    break;
+                }
+            }
+            if(index == -1)
+            {
+                Console.WriteLine("Text not found");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("Text found at: " + index);
+                Console.ReadLine();
             }
 
             // Loop to print strings
