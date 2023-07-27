@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringsAndIntegers.cs", "StringsAndIntegers.cs\StringsAndIntegers.cs.csproj", "{9F5A945B-042A-470F-B43A-7B2CE821A64C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F5A945B-042A-470F-B43A-7B2CE821A64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5A945B-042A-470F-B43A-7B2CE821A64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5A945B-042A-470F-B43A-7B2CE821A64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5A945B-042A-470F-B43A-7B2CE821A64C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37D0ECA4-8609-4ACA-AA56-CB53519908DA}
+	EndGlobalSection
+EndGlobal

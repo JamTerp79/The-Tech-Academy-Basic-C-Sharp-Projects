@@ -1,0 +1,7 @@
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\bin\Debug\StringsAndIntegers.cs.exe.config
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\bin\Debug\StringsAndIntegers.cs.exe
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\bin\Debug\StringsAndIntegers.cs.pdb
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\obj\Debug\StringsAndIntegers.cs.csproj.AssemblyReference.cache
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\obj\Debug\StringsAndIntegers.cs.csproj.CoreCompileInputs.cache
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\obj\Debug\StringsAndIntegers.cs.exe
+C:\Users\terpe\source\repos\The-Tech-Academy-Basic-C-Sharp-Projects\StringsAndIntegers\StringsAndIntegers.cs\obj\Debug\StringsAndIntegers.cs.pdb
